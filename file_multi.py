@@ -4,6 +4,7 @@ with open('input.txt') as f:
     for line in f:
         try:
             a, b, c = map(float, line.split())
+            print(f"\nEquation: {a}x² + {b}x + {c} = 0")
             D = b**2 - 4*a*c
             if D > 0:
                 x1 = (-b + math.sqrt(D)) / (2*a)
@@ -17,4 +18,4 @@ with open('input.txt') as f:
                 imag = math.sqrt(-D) / (2*a)
                 print(f"Complex Roots: {real:.2f} ± {imag:.2f}i")
         except:
-            print("Invalid input")
+            print("Invalid line, skipped.")
