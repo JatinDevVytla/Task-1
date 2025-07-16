@@ -27,5 +27,5 @@ Supports:
 1. Make sure Python is installed.
 2. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/Task---1.git
-   cd Task---1
+   git clone https://github.com/your-username/Task-1.git
+   cd Task-1
