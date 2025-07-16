@@ -11,21 +11,14 @@ Supports:
 
 ## 📂 Project Structure
 
-| File Name          | Description                                     |
-|--------------------|-------------------------------------------------|
-| `hardcoded_v1.py`  | Basic solver with hardcoded values              |
-| `hardcoded_v2.py`  | Adds complex root support                       |
-| `hardcoded_v3.py`  | Final short version with formatted output       |
-| `keyboard_v1.py`   | Accepts keyboard input                          |
-| `keyboard_v2.py`   | Adds input validation                           |
-| `keyboard_v3.py`   | Final clean version                             |
-| `file_single_v1.py`| Solves first line from `input.txt`              |
-| `file_single_v2.py`| Adds complex root and formatting                |
-| `file_single_v3.py`| Clean, concise version                          |
-| `file_multi_v1.py` | Solves all equations from `input.txt`           |
-| `file_multi_v2.py` | Adds error handling & output formatting         |
-| `file_multi_v3.py` | Final minimal and readable version              |
-| `input.txt`        | Input file with multiple equations              |
+| File                | Description                                  |
+|---------------------|----------------------------------------------|
+| `input.txt`         | Input file with multiple equations           |
+| `hardcoded.py`      | Solves quadratic equation using hardcoded values |
+| `keyboard.py`       | Solves using user input from keyboard        |
+| `file_single.py`    | Reads and solves one equation from a file    |
+| `file_multi.py`     | Solves multiple equations from a file        |
+
 
 ---
 
